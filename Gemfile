@@ -61,3 +61,5 @@ gem 'bootstrap', '~> 4.0.0.beta'
 gem 'rails-assets-tether', '~> 1.1', '>= 1.1.1'
 
 gem 'simple_form'
+
+gem 'devise'
