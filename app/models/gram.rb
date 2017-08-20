@@ -1,5 +1,6 @@
 class Gram < ApplicationRecord
   validates :message, presence: true
+  validates :image, presence: true
 
   belongs_to :user
 
