@@ -58,9 +58,5 @@ class GramsController < ApplicationController
   def gram_params
     params.require(:gram).permit(:message, :image)
   end
-
-  def render_status(status=:not_found)
-    render plain: "#{status.to_s.titleize} :<", status: status
-  end 
   
 end
